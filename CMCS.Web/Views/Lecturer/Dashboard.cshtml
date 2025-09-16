@@ -1,0 +1,37 @@
+@{
+	ViewData["Title"] = "Lecturer Dashboard";
+}
+
+<h1>Lecturer Dashboard</h1>
+
+<div class="row g-3">
+	<div class="col-md-4">
+		<div class="card border-primary">
+			<div class="card-body">
+				<h5 class="card-title">Submit a Claim</h5>
+				<p class="card-text">Create and submit your monthly claim.</p>
+				<a class="btn btn-primary" asp-controller="Lecturer" asp-action="Submit">Submit Claim</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="card border-success">
+			<div class="card-body">
+				<h5 class="card-title">My Claims</h5>
+				<p class="card-text">View statuses and details of your claims.</p>
+				<a class="btn btn-success" asp-controller="Lecturer" asp-action="MyClaims">View Claims</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="card border-info">
+			<div class="card-body">
+				<h5 class="card-title">Upload Documents</h5>
+				<p class="card-text">Attach supporting documents to your claims.</p>
+				<a class="btn btn-info" asp-controller="Lecturer" asp-action="MyClaims">Go to Claims</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+

@@ -3,6 +3,36 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Contract Monthly Claim System (CMCS)</h1>
+    <p class="lead">Prototype UI for Lecturers, Programme Coordinators, and Academic Managers.</p>
+    <hr />
+    <div class="row g-3">
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Lecturer</h5>
+                    <p class="card-text">Submit claims, upload documents, and track statuses.</p>
+                    <a class="btn btn-primary" asp-controller="Lecturer" asp-action="Dashboard">Open Dashboard</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Programme Coordinator</h5>
+                    <p class="card-text">Verify submitted claims and view details.</p>
+                    <a class="btn btn-outline-secondary" asp-controller="Admin" asp-action="Coordinator">Open View</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Academic Manager</h5>
+                    <p class="card-text">Approve verified claims and add comments.</p>
+                    <a class="btn btn-outline-secondary" asp-controller="Admin" asp-action="Manager">Open View</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

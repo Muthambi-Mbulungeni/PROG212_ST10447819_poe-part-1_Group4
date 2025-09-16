@@ -20,3 +20,15 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.card-title {
+	font-weight: 600;
+}
+
+.navbar-brand {
+	font-weight: 700;
+}
+
+.table th, .table td {
+	vertical-align: middle;
+}

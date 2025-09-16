@@ -1,0 +1,20 @@
+@{
+	ViewData["Title"] = "Upload Documents";
+}
+
+<h1>Upload Documents</h1>
+<p class="text-muted">Prototype only. File upload is disabled.</p>
+
+<div class="mb-3">
+	<label class="form-label">Claim ID</label>
+	<input class="form-control" value="@ViewBag.ClaimId" disabled />
+</div>
+
+<div class="mb-3">
+	<label for="file" class="form-label">Select Files</label>
+	<input id="file" type="file" class="form-control" disabled />
+</div>
+
+<button class="btn btn-primary" disabled>Upload</button>
+
+
