@@ -1,20 +1,20 @@
-//namespace CMCS.Web.Models;
+namespace CMCS.Web.Models;
 
-//public enum UserRole
-//{
-//	Lecturer,
-//	ProgrammeCoordinator,
-//	AcademicManager
-//}
+public enum UserRole
+{
+	Lecturer,
+	ProgrammeCoordinator,
+	AcademicManager
+}
 
-//public enum ClaimStatus
-//{
-//	Draft,
-//	Submitted,
-//	Verified,
-//	Approved,
-//	Rejected,
-//	Settled
-//}
+public enum ClaimStatus
+{
+	Draft,
+	Submitted,
+	Verified,
+	Approved,
+	Rejected,
+	Settled
+}
 
 
